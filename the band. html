@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <div class="top">
+        <div class="cach height_2pt"><!--bao bọc 2 phần tử nav-->
+            <div class="phantu1"><!--phần tử thứ 1-->
+                <a href="#">HOME</a>
+                <a href="#">BAND</a>
+                <a href="#">TOUR</a>
+                <a href="#">CONTACT</a>
+                <div class="div_dropdown" style="margin: 0;padding: 0;height: 100%;">
+                    <a href="#" class="dropdown">MORE<div class="arrow-down"></div></a>
+                    <div class="list-dropdow color_a">
+                        <a href="#">Merchandise</a>
+                        <a href="#">Extras</a>
+                        <a href="#">Media</a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="search"> <!--phần tử thứ 2-->
+                <img style="width: 15px;height: 15px;" src="image/search.png" alt="">
+            </a>
+        </div>
+    </div><!--End Navbar-->
+    <div class="container">
+        <div class="slideShow">
+            <img src="image/la.jpg" alt="">
+            <div class="text">
+                <h3>Los Angeles</h3>
+                <p>
+                    <b>We had the best time playing at Venice Beach!</b>
+                </p>
+            </div>
+        </div>
+        <div class="slideShow">
+            <img src="image/ny.jpg" alt="">
+            <div class="text">
+                <h3>New York</h3>
+                <p>
+                    <b>The atmosphere in New York is lorem ipsum.</b>
+                </p>
+            </div>
+        </div>
+        <div class="slideShow">
+            <img src="image/chicago.jpg" alt="">
+            <div class="text">
+                <h3>Chicago</h3>
+                <p>
+                    <b>Thank you, Chicago - A night we won't forget.</b>
+                </p>
+            </div>
+        </div>
+        <div class="content_text">
+            <h2 class="text_the_band">THE BAND</h2>
+            <p class="text_we_love_music">
+                <i>We love music</i>
+            </p>
+            <p class="text_we_have">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                deserunt mollit anim id est laborum consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <div class="text_img">
+                <div class="content_image">
+                    <p>Name</p>
+                    <img style="width: 60%;" src="image/bandmember.jpg" alt="">
+                </div>
+                <div class="content_image">
+                    <p>Name</p>
+                    <img style="width: 60%;" src="image/bandmember.jpg" alt="">
+                </div>
+                <div class="content_image">
+                    <p>Name</p>
+                    <img style="width: 60%;" src="image/bandmember.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="round_content_2">
+            <div class="content_2">
+                <h2 class="text_tour_dates">TOUR DATES</h2>
+                <p class="text_i">
+                    <i>Remember to book your tickets!</i>
+                </p>
+                <ul class="list_month">
+                    <li class="li_span">September <span>Sold out</span></li>
+                    <li class="li_span">October <span>Sold out</span></li>
+                    <li class="li_number">November <span>3</span></li>
+                </ul>
+                <div class="boc_3content">
+                    <div class="content">
+                        <img src="image/newyork.jpg" alt="">
+                        <div class="text_info">
+                            <p>
+                                <b>New York</b>
+                            </p>
+                            <p class="text_fri">Fri 27 Nov 2016</p>
+                            <p class="text_pra">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button class="btn_buy">Buy Tickets</button>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <img src="image/paris.jpg" alt="">
+                        <div class="text_info">
+                            <p>
+                                <b>Paris</b>
+                            </p>
+                            <p class="text_fri">Sat 28 Nov 2016</p>
+                            <p class="text_pra">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button class="btn_buy">Buy Tickets</button>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <img src="image/sanfran.jpg" alt="">
+                        <div class="text_info">
+                            <p>
+                                <b>San Francisco</b>
+                            </p>
+                            <p class="text_fri">Sun 29 Nov 2016</p>
+                            <p class="text_pra">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button class="btn_buy">Buy Tickets</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content_4">
+            <h2>CONTACT</h2>
+            <p>
+                <i class="text_fan">Fan? Drop a note!</i>
+            </p>
+            <div class="chia2nua">
+                <div class="nua">
+                    <img style="width: 13px; height: 13px;" src="image/pin.png" alt="">    Chicago, US <br>
+                    <img src="image/phone-call.png" alt="">    Phone: +00 151515 <br>
+                    <img src="image/email.png" alt="">    Email: mail@mail.com
+                </div>
+                <div class="nua">
+                    <form action="" class="form_btn">
+                        <div class="boc_input_ngan">
+                            <input class="iput" type="email" placeholder="Name">
+                            <input class="iput ngan_hon" type="email" placeholder="Email">
+                        </div>
+                        <input class="iput daihon" type="text" placeholder="Message">
+                        <button class="btn_send">SEND</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="banner_end">
+            <img style="width: 100%;" src="image/map.jpg" alt="">
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="img_icon">
+            <i class="fa fa-facebook-official w3-hover-opacity fa-xl" style="color: #787878;"></i>
+            <i class="fa fa-instagram w3-hover-opacity fa-xl" style="color: #787878;"></i>
+            <i class="fa fa-snapchat w3-hover-opacity fa-xl" style="color: #787878;"></i>
+            <i class="fa fa-pinterest-p w3-hover-opacity fa-xl" style="color: #787878;"></i>
+            <i class="fa fa-twitter w3-hover-opacity fa-xl" style="color: #787878;"></i>
+            <i class="fa fa-linkedin w3-hover-opacity fa-xl" style="color: #787878;"></i>
+        </div>
+        <p>Powered by <u>w3.css</u></p>
+    </footer>
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let slides = document.getElementsByClassName("slideShow");
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 4000); // Change slide every 2 seconds
+        }
+    </script>
+    <script src="https://kit.fontawesome.com/4392bd821c.js" crossorigin="anonymous"></script>
+</body>
+</html>
